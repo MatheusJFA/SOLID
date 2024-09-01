@@ -1,0 +1,13 @@
+The Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions.
+
+The Dependency Inversion Principle is the D in SOLID. It is a design principle that states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions.
+This means that the implementation details of low-level modules should be hidden behind abstractions, so that high-level modules can depend on those abstractions rather than on the low-level modules themselves.
+This helps to decouple high-level and low-level modules, making the codebase more flexible, maintainable, and testable.
+
+The Dependency Inversion Principle can be achieved by using interfaces or abstract classes to define the abstractions that high-level modules depend on.
+Low-level modules can then implement those interfaces or extend those abstract classes, allowing high-level modules to interact with them through the abstractions.
+
+For example, if a high-level module needs to interact with a low-level module that reads data from a database, the low-level module could implement an interface that defines the methods for reading data.
+The high-level module could then depend on that interface, rather than on the low-level module itself, allowing it to interact with any low-level module that implements the interface.
+
+By following the Dependency Inversion Principle, codebases can be more flexible, maintainable, and testable, which can help to improve the overall quality of the codebase.

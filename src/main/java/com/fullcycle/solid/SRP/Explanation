@@ -1,0 +1,12 @@
+The Single Responsibility Principle states that a class should have only one reason to change.
+
+The Single Responsibility Principle is the S in SOLID. It is a design principle that states that a class should have only one reason to change.
+This means that a class should have only one responsibility or job, and that responsibility should be encapsulated within the class.
+This is important because it helps to keep classes small, focused, and easy to understand, which can make them easier to maintain and test.
+
+The Single Responsibility Principle can be achieved by breaking up large classes into smaller classes that each have a single responsibility.
+
+For example, if a class is responsible for both reading and writing data to a file, it could be broken up into two separate classes: one for reading data and one for writing data.
+This would make each class easier to understand and maintain, and would also make it easier to test each class independently.
+
+By following the Single Responsibility Principle, classes can be more modular, reusable, and maintainable, which can help to improve the overall quality of the codebase.

@@ -1,0 +1,13 @@
+The Open Close Principle states that a class should be open for extension but closed for modification.
+
+The Open Close Principle is the O in SOLID. It is a design principle that states that a class should be open for extension but closed for modification.
+This means that a class should be easily extendable without modifying the class itself.
+This is important because it allows for new functionality to be added to a class without changing the existing code, which can help prevent bugs and other issues.
+
+The Open Close Principle can be achieved by using inheritance, composition, and interfaces.
+
+Inheritance: By creating a new class that extends the existing class, new functionality can be added without modifying the existing class.
+Composition: By creating a new class that contains an instance of the existing class, new functionality can be added without modifying the existing class.
+Interfaces: By defining an interface that the existing class implements, new functionality can be added by creating a new class that implements the interface.
+
+By following the Open Close Principle, classes can be more flexible, reusable, and maintainable, which can help to improve the overall quality of the codebase.

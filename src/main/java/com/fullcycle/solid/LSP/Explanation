@@ -1,0 +1,13 @@
+The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+
+The Liskov Substitution Principle is the L in SOLID. It is a design principle that states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+This means that a subclass should be able to be substituted for its superclass without changing the behavior of the program.
+This is important because it allows for polymorphism, which can make code more flexible and reusable.
+
+The Liskov Substitution Principle can be achieved by following these guidelines:
+1. The subclass should implement all of the methods of the superclass.
+2. The subclass should not override any of the methods of the superclass.
+3. The subclass should not throw any new exceptions that are not thrown by the superclass.
+4. The subclass should not change the behavior of any of the methods of the superclass.
+
+By following the Liskov Substitution Principle, classes can be more flexible, reusable, and maintainable, which can help to improve the overall quality of the codebase.

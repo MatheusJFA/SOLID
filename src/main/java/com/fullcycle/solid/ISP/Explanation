@@ -1,0 +1,12 @@
+The Interface Segregation Principle states that a class should not be forced to implement methods it does not use.
+
+The Interface Segregation Principle is the I in SOLID. It is a design principle that states that a class should not be forced to implement methods it does not use.
+This means that interfaces should be small and focused, with only the methods that are relevant to the class that implements them.
+This is important because it can help to reduce the complexity of classes and make them easier to understand and maintain.
+
+The Interface Segregation Principle can be achieved by following these guidelines:
+1. Create small, focused interfaces that contain only the methods that are relevant to the class that implements them.
+2. Use multiple interfaces to break up large interfaces into smaller, more focused ones.
+3. Avoid creating interfaces with too many methods, as this can make them difficult to implement and maintain.
+
+By following the Interface Segregation Principle, classes can be more flexible, reusable, and maintainable, which can help to improve the overall quality of the codebase.
