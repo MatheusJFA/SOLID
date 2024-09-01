@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CoursesRepository implements  ICourseRepository {
-    private List<Course> courses = new ArrayList<>();
+    private final List<Course> courses = new ArrayList<>();
 
     public void save(Course course) {
         courses.add(course);

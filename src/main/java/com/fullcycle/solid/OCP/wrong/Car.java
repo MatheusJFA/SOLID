@@ -1,10 +1,10 @@
 package com.fullcycle.solid.OCP.wrong;
 
 public class Car {
-    private String color;
-    private String model;
-    private int year;
-    private String type;
+    private final String color;
+    private final String model;
+    private final int year;
+    private final String type;
 
     private Car(String color, String model, int year, String type) {
         this.color = color;

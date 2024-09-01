@@ -2,10 +2,6 @@ package com.fullcycle.solid.ISP.wrong;
 
 import com.fullcycle.solid.ISP.wrong.worker.Chief;
 import com.fullcycle.solid.ISP.wrong.worker.Driver;
-import com.fullcycle.solid.ISP.wrong.worker.Worker;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ISP {
     public static void main(String[] args) {

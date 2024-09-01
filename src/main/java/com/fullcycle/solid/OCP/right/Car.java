@@ -4,10 +4,10 @@ public class Car {
     // This class is responsible for managing the car
     // This class should not be responsible for returning the energy type of the car
 
-    private String color;
-    private String model;
-    private int year;
-    private String energy;
+    private final String color;
+    private final String model;
+    private final int year;
+    private final String energy;
 
     private Car(String color, String model, int year, String energy) {
         this.color = color;

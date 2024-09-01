@@ -1,7 +1,7 @@
 package com.fullcycle.solid.DIP.right.services;
 
 public class NotificationServiceFactory {
-    private NotificationService notificationService;
+    private final NotificationService notificationService;
 
     public NotificationServiceFactory(NotificationService notificationService) {
         this.notificationService = notificationService;

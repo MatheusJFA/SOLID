@@ -2,9 +2,9 @@ package com.fullcycle.solid.SRP.right;
 
 public class Course {
     // This class is responsible for managing the course
-    private String name;
-    private String description;
-    private String category;
+    private final String name;
+    private final String description;
+    private final String category;
 
     private Course(String name, String description, String category) {
         this.name = name;

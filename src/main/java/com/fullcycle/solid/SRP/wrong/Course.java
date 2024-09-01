@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
-    private static List<Course> courses = new ArrayList<>();
+    private final static List<Course> courses = new ArrayList<>();
 
-    private String name;
-    private String description;
-    private String category;
+    private final String name;
+    private final String description;
+    private final String category;
 
     private Course(String name, String description, String category) {
         this.name = name;
